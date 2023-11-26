@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/owfont-regular.min.css">
+</head>
+<body>
+    <div class="card">
+        <form class="search">
+
+            <input type="text" placeholder="Enter The City Name" spellcheck="false">
+            <button type="submit"><img src="search.png"></button>
+
+        </form>
+        <p class="error">
+
+        </p>
+        <div class="weather">
+            <i id= "weatheric"></i>
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
